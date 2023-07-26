@@ -1,0 +1,129 @@
+body{
+   background-image: url('images/Diseño\ sin\ título\ \(1\).png');
+   background-repeat:no-repeat;
+   font-family: 'Bacasime Antique', serif;
+   background-size: cover;
+}
+
+/*Este icono aparece en la pestaña de la página*/
+.icon {
+  width: 100%;
+}
+
+/*DISEÑO DE ENCABEZADO*/
+/********************************************************/
+/*Contenedor de los dos divs que contiene el encabezado*/
+.container{
+  display: flex;
+}
+
+/*******/
+/*Clase del div*/
+.item{
+  padding: auto;
+  float:center;
+  display: table-cell;
+}
+
+/*******/
+/*Contiene el logo ".intoSPACE"*/
+#item1{
+  display: left;
+  width: 30%;
+  background-color: rgba(101, 101, 101, 0.61);
+}
+/*******/
+/*Contiene el menú*/
+#item2{
+  display:right;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(101, 101, 101, 0.61);
+}
+/*******/
+/*Contiene el menu*/
+.item3{
+  margin:0px auto;
+ 
+  
+}
+/*******/
+/*botones del menu*/
+/*Decoración del div que contiene los botones*/
+.b{
+  margin-top: 70px;
+  margin-inline: 10px;
+  border: 1px solid #fffdff; /*anchura, estilo y color borde*/
+  padding: 10px; /*espacio alrededor texto*/
+  background-color: #ebb2f9; /*color botón*/
+  border-radius: 50px; /*bordes redondos*/
+  }
+/*Decoraciones del texto de los botones*/
+  .b1{
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Comic Sans' ; /*tipografía texto*/
+  }
+/*******/
+/*Es el logo .intoSPACE*/
+.logo {
+  width: 100%;
+  margin: 0 auto;
+}
+/*******/
+/*Texto de motivación*/
+.text-motivation{
+    text-align: center; 
+    font-family: Comic Sans MS; 
+    font-weight:bold; 
+    font-size: 50px; 
+    color: #82c2f0; 
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+    }
+
+
+/*DISEÑO DE SLIDER*/
+.slider-frame {
+	width: 1280px;
+  height: auto;
+	overflow: hidden;
+  margin:50px auto 0;
+}
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+.slider-frame img {
+	width: 60%;
+  margin: 0 250px;
+  margin-top: 0;
+}
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+/*******/
+/*Diseño del texto en general*/
+.texto{
+   color: rgb(247, 240, 240);
+   font-family: 'Bacasime Antique', serif;
+   font-family: 'Comic Neue', cursive;
+   font-size: 25px;
+}
+/*******/
+/*Diseño del tamaño de la letra en general*/

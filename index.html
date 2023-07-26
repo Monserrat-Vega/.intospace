@@ -1,0 +1,170 @@
+<!--.into SPACE-->
+<!DOCTYPE html> 
+<!--lang Lenguaje de sitio-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>space</title>
+    <link rel="stylesheet" href="/style.css">
+    <!--google fonts connected, TIPO DE LETRAS DE GOOGLE-->
+     <!--Tipo de letras para el texto en general-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <!--Iconno que aparece en la pestaña de la página-->
+    <link class="icon" rel="icon" href="/images/cohete.png">
+</head>
+
+<body>
+    <!--El header contiene elementos de encabezado -->
+    <header>
+        <!-- Aporta la navegación en la página-->
+        <nav>
+        <div class="container">
+
+            <!--IMAGEN DISTINTIVA DE LA PÁGINA (logotipo)-->
+            <div class="item" id="item1">
+                <div><img class="logo"  src="images/into.png"></div>
+            </div>
+    
+            <!--MENÙ DEL ENCABEZADO-->
+
+            <div class="item" id="item2">
+                <div class="item3">
+               
+                <button class="b"><a class="b1" href="#astrobiologia">El sistema solar</a></button>
+               
+                <button class="b"><a class="b1" href="#universo"> Planetas</a></button>
+                
+                <button class="b"><a class="b1" href="#estrellas">Oris</a></button>
+                </div>
+            </div>     
+        </div>
+        </nav>
+    </header>
+
+
+        <!--Es el contenido principal de la página
+        -->
+        <main>
+            <div>
+             <h1 class="text-motivation"> Are U' Ready?</h1>
+            </div>
+
+
+        <div>
+
+            <!--Imágenes en movimiento-->
+            <div class="slider-frame">
+                <ul>
+                    <li><img src="images/slider1 (1).png" alt=""></li>
+                    <li><img src="images/slider2 (1).png" alt=""></li>
+                    <li><img src="images/slider3 (1).png" alt=""></li>
+                    <li><img src="images/slider4 (2).png" alt=""></li>
+                </ul>
+            </div>
+         </div>
+
+          <!--hr división horizontal-->
+            <hr> 
+
+
+        <!--Crear divisiones-->
+        <div>
+            <h3>Top de estrellas más masivas</h3>
+            <!--OL listas ordenadas-->
+            <ol>
+                <li> R136a1, estrella hipergigante azul</li>
+                <li>Estrella de la nebulosa Ponía</li>
+                <li>Sol</li>
+            </ol>
+            <h3>Misiones espaciales</h3>
+            <!--Listas desordenadas-->
+            <ul>
+                <li>Apollo8</li>
+                <li>Géminis</li>
+                <li>Apollo11</li>
+                <li>Curiosity</li>
+                
+            </ul>
+        </div>
+       
+        <h3 id="astrobiologia">Objetivo de la página</h3>
+        <!--div para tamaño de letra
+        <-->
+        <div class="texto" id="info-1">
+        <p>
+            Sistema Solar es un sistema planetario cuya estrella central es el Sol, alrededor del cual orbitan o giran varios planetas, planetas enanos y otros cuerpos celestes por efecto de la fuerza de gravedad
+        </p>
+        </div>
+
+
+
+        <h3 id="astrobiologia">El sistema solar</h3>
+        <!--div para tamaño de letra
+        <-->
+        <div class="texto" id="info-1">
+        <p>
+            Sistema Solar es un sistema planetario cuya estrella central es el Sol, alrededor del cual orbitan o giran varios planetas, planetas enanos y otros cuerpos celestes por efecto de la fuerza de gravedad
+        </p>
+        </div>
+
+        
+        <h3 id="universo">Origen del Universo</h3>
+        <div class="texto" id="info-2">
+        <p>
+            La teoría más conocida sobre el origen del universo se centra en un cataclismo ial Europea anunció que ya tenían pruebas de siete galaxias que serían más antiguas conocidas hasta la fecha. Según los astrónomos, estas formaciones de estrellas 50 millones de años después del Big Bang los que "las haría las galaxias más tempranas que se han podido confirmar espectroscópicamente".
+        </p>
+        </div>
+
+        <h3 id="estrellas">Origen de las estrellas</h3>
+        <div class="texto" id="info-3">
+        <p>
+            Las estrellas  primeros estadios, la protoestrella es un objeto muy activo, y produce un viento bipolar formado por dos chorros opuestos de material de alta velocparte de la nube materna donde ha nacido la estrella y hacen que ésta, una vez formada, sea visible a nuestros ojos.
+        </p>
+        </div>
+
+
+        <forms>
+            <p> ¿Cuál es la edad del universo?</p>
+            <!--label-etiqueta para identificar cada respuesta(3 misiones)-->
+            <label for="edad-universo">
+                <!--input-insertar algo data atributo name: relaciona que las respuestas pertenecen a la misma pregunta-->
+                <input type="text">
+                <button>Enviar</button>
+            </label>
+            <p> ¿Cuántas misiones Apolo existieron?</p>
+            <!--for es el id de la respuesta, es decir, a que pertenece?-->
+            <label for="3-misiones">
+                <input type="radio" name="apolo"> 3 misiones
+            </label>
+            <label for="10-misiones">
+                <input type="radio"> 10 misiones
+            </label>
+             <!-- CHECKBOX - Seleccionar varias -->
+             <p>¿Qué objetos celestes existen?</p>
+             <label for="galaxias">
+                 <input type="checkbox" name="celeste"> Galaxias
+             </label>
+             <label for="plantenas">
+                 <input type="checkbox" name="celeste"> Planetas
+             </label>
+             <label for="nebulosas">
+                 <input type="checkbox" name="celeste"> Nebulosas
+             </label>
+             <label for="satelites">
+                 <input type="checkbox" name="celeste"> Satélites
+             </label>
+             <label for="plantas">
+                 <input type="checkbox" name="celeste"> Plantas
+             </label>
+             <label for="agujeros">
+                 <input type="checkbox" name="celeste"> Agujeros negros
+             </label>
+
+        </forms>
+       
+
+</body>
+</html>
